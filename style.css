@@ -1,0 +1,48 @@
+html, body {
+    height: 80%;
+    width:50%;
+}
+
+html {
+    //display: table;
+    margin: auto;
+}
+
+body{
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+div.divCenter{
+    margin-top: 200px;
+    //border: 1px solid red;
+    width: 100%;
+}
+
+.header {
+
+    width: 100%;
+    letter-spacing: 10px;
+    text-align: center;
+    font-family: "Lucida Console";
+    font-size: 50px;
+    //border: 1px solid black;
+    float: left;
+}
+.underHeader {
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    //border: 1px solid black;
+    text-align: center;
+
+
+}
+
+table {
+    margin-top:20px;
+    width: 100%;
+    border: 1px ;
+    text-align: center;
+}
