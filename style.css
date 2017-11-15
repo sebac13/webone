@@ -1,23 +1,11 @@
-html, body {
-    height: 80%;
-    width:50%;
-}
-
-html {
-    //display: table;
-    margin: auto;
-}
-
 body{
-    display: table-cell;
-    vertical-align: middle;
-    border: 1px solid black;
+   width:100%;
+   margin-left:auto;
+   margin-right:auto;
+   vertical-align: middle;
 }
-div.divCenter{
-    margin-top: 200px;
-    //border: 1px solid red;
-    width: 100%;
-}
+
+
 
 .header {
 
@@ -26,7 +14,7 @@ div.divCenter{
     text-align: center;
     font-family: "Lucida Console";
     font-size: 50px;
-    //border: 1px solid black;
+    border: 1px solid black;
     float: left;
 }
 .underHeader {
@@ -39,10 +27,25 @@ div.divCenter{
 
 
 }
-
+a {
+    text-decoration: none
+}
 table {
     margin-top:20px;
     width: 100%;
-    border: 1px ;
+
     text-align: center;
+       margin-left:auto;
+       margin-right:auto;
+    vertical-align: middle;
+    font-family: Verdana,sans-serif;
+}
+
+#content {
+    width: 40%
+    vertical-align: middle;
+    margin-top: 100px;
+     border: 1px solid black;
+
+
 }
