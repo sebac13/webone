@@ -3,16 +3,18 @@
 <link rel="stylesheet" href="style.css">
 <script src='js/jquery-3.2.1.min.js'></script>
 <script src='js/app.js'></script>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-
+<!--
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+-->
 <head>
     <meta charset="UTF-8">
     <title>MARIAN KISZKA</title>
 </head>
 <body>
-    <div class="divCenter">
+ <!--   <div class="divCenter">
         <div class="header">
             <b>MARIAN KISZKA</b>
         </div>
@@ -20,24 +22,48 @@
         <div class="underHeader">
             <i>Usługi remontowo-budowlane</i>
         </div>
+    </div> -->
+    <div class="nextTo">
+        <div class="centerDiv1 ">
+            <img src="media/Logo.png" alt="home" style="width:220px;height:170px;"></a></td>
+        </div>
+        <div class="tableHeader">
+            <table >
+                <tr>
+                    <!-- <td><a href="index.html"><img src="media/home.png" alt="home" style="width:30px;height:30px;"></a></td>-->
+                    <td><a class="samePage" href="company.html" onclick="showFooter()"><b>O firmie</b></a></td>
+                    <td><a class="samePage" href="galery.html" onclick="showFooter()"><b>Galeria</b></a></td>
+                    <td><a class="samePage" href="calendar.html" onclick="showFooter()"><b>Kalendarz</b></a></td>
+                    <td><a class="samePage" href="services.html" onclick="showFooter()"><b>Usługi</b></a></td>
+                    <td><a class="samePage" href="contact.html" onclick="hideFooter()"><b>Kontakt</b></a></td>
+                </tr>
+            </table>
+        </div>
     </div>
+ <div id="content">
+     <div class="push"></div>
+ </div>
+    <script src='js/app.js'></script>
 
-    <div class="table">
-        <table>
-            <td><a class ="samePage" href="company.html">O firmie</a></td>
-            <td><a class ="samePage" href="galery.html">Galeria</a></td>
-            <td><a class ="samePage" href="calendar.html">Kalendarz</a></td>
-            <td><a class ="samePage" href="contact.html">Kontakt</a></td>
-        </table>
-        <div id="content"></div>
-        <link rel="stylesheet" href="style.css">
-        <script src='js/app.js'></script>
-        <script src='js/jquery-3.2.1.min.js'></script>
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    </div>
-
+    <link rel="stylesheet" href="style.css">
+    <script src='js/app.js'></script>
+    <script src='js/jquery-3.2.1.min.js'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 </body>
+<footer>
+    <div id="footer" class="tableContact">
+        <table >
+            <td>
+                <tr><h3>Dane kontaktowe</h3></tr>
+                <tr>Marian Kiszka<br/></tr>
+                <tr>Krzeczowice 246, 37-220 Kańczuga<br/></tr>
+                <tr>tel. 669 550 501<br/></tr>
+                <tr>e-mail: mariankiszka@gmail.com<br/></tr>
+            </td>
+        </table>
+    </div>
+</footer>
 </html>
 

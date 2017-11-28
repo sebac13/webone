@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#content").load("galery.html");
+    $("#content").load("company.html");
 });
 
 $('.samePage').click(function(){
@@ -8,10 +8,23 @@ $('.samePage').click(function(){
     return false;
 });
 
-$(function(){
-  $('.bxslider').bxSlider({
-    mode: 'fade',
-    captions: true,
-    slideWidth: 600
-  });
-});
+function hideFooter() {
+    var x = document.getElementById("footer");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function showFooter() {
+    var x = document.getElementById("footer");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "block";
+    }
+}
+
+
+

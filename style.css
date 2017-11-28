@@ -1,3 +1,5 @@
+/*INDEX HTML START*/
+
 body{
    width:100%;
    margin-left:auto;
@@ -5,47 +7,172 @@ body{
    vertical-align: middle;
 }
 
-
-
-.header {
-
-    width: 100%;
-    letter-spacing: 10px;
-    text-align: center;
-    font-family: "Lucida Console";
-    font-size: 50px;
-    border: 1px solid black;
-    float: left;
-}
-.underHeader {
-
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 20px;
-    //border: 1px solid black;
-    text-align: center;
-
-
-}
 a {
     text-decoration: none
-}
-table {
-    margin-top:20px;
-    width: 100%;
 
+}
+
+
+
+.nextTo{
+        display: flex;
+        width: 80%;
+        margin-top:0px
+
+}
+
+
+.centerDiv1 {
+    flex: 3;
+    width:100%;
     text-align: center;
-       margin-left:auto;
-       margin-right:auto;
-    vertical-align: middle;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.tableHeader {
+    flex: 3;
+    margin-left:auto;
+    margin-right:auto;
     font-family: Verdana,sans-serif;
+    position: relative;
+
+}
+
+table {
+    width: 100%;
+       position: absolute;
+       bottom: 0;
+       right: 0;
 }
 
 #content {
-    width: 40%
+    width: 100%;
+
+    height: 100%;
+    margin-left:auto;
+    margin-right:auto;
     vertical-align: middle;
-    margin-top: 100px;
-     border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px
+    border: 1px solid black;
 
 
 }
+
+footer {
+    width:100%;
+    height:150px;
+    border-top: 5px solid black;
+
+
+}
+.tableContact {
+    margin-bottom:20px;
+    margin-right:100px;
+    color: black;
+    float: right;
+    font-family: Georgia,Serif;
+
+
+
+}
+
+/*INDEX HTML END*/
+
+/*COMPANY HTML START*/
+
+.aboutContent {
+
+    width: 60%;
+       margin-left:auto;
+       margin-right:auto;
+       margin-top: 50px;
+       margin-bottom: 50px;
+
+}
+
+.contactContent {
+
+    width: 60%;
+       margin-left:auto;
+       margin-right:auto;
+       margin-top: 50px;
+       margin-bottom: 50px;
+
+}
+/*COMPANY HTML END*/
+
+
+/*SERVICES HTML START*/
+
+
+
+.servicesList {
+        width: 60%;
+               margin-left:auto;
+               margin-right:auto;
+        margin-top:50px;
+        margin-bottom:50px
+
+}
+
+
+
+/*SERVICES HTML START*/
+
+
+/*CALENDAR HTML START*/
+
+
+
+
+#calendar {
+
+    border: 0;
+    width="800";
+    height="600";
+    frameborder="0";
+    scrolling="no";
+}
+
+/*CALENDAR HTML END*/
+
+/*
+.header {
+
+    width: 50%;
+    letter-spacing: 13px;
+    text-align: left;
+    margin-left: 10px;
+    font-family: "Lucida Console";
+    font-size: 20px;
+    border: 1px solid black;
+    float: left;
+}
+
+.underHeader {
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    text-align: left;
+    }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
